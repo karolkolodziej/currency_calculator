@@ -6,14 +6,16 @@ class ListItem extends React.Component {
     return (
       <div className="listItem">
         <div className="listItem__title">
-          Name of transaction:{this.props.title}{" "}
+          Name of transaction: {this.props.title}{" "}
         </div>
         <div className="listItem__exchangeRate">
-          Exchange rate:{this.props.exchangeRate}
+          Exchange rate: {this.props.exchangeRate}
         </div>
-        <div className="listItem__amount">Amount [EUR]:{this.props.amount}</div>
+        <div className="listItem__amount">
+          Amount : {this.props.amount}[EUR]
+        </div>
         <div className="listItem__exchValue">
-          You have [PLN]{this.props.exchValue}
+          You spent: {this.props.exchValue}[PLN]
         </div>
       </div>
     );

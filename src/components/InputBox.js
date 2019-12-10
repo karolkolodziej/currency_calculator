@@ -6,7 +6,12 @@ import { saveTransactionAction } from "../actions/saveTransactionAction";
 import "./InputBoxStyle.css";
 
 class IntputBox extends React.Component {
-  state = { title: "", exchangeRate: 4.5, amount: null, exchValue: null };
+  state = {
+    title: "",
+    exchangeRate: 4.5,
+    amount: null,
+    exchValue: null
+  };
 
   handleTitleChange = event => {
     this.setState({ title: event.target.value });
@@ -73,7 +78,9 @@ class IntputBox extends React.Component {
 }
 
 const mapStateToProps = state => {
-  return { listOfItems: state.item };
+  return {
+    listOfItems: state.listOfItems
+  };
 };
 
 export default connect(mapStateToProps, {

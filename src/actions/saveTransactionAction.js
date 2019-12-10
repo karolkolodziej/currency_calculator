@@ -6,8 +6,7 @@ export const saveTransactionAction = (
   title,
   exchangeRate,
   amount,
-  exchValue,
-  id
+  exchValue
 ) => {
   return {
     type: SAVE_ITEM,

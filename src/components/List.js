@@ -7,6 +7,8 @@ import { removeFromListAction } from "../actions/removeFromListAction";
 import "./ListStyle.css";
 
 class List extends React.Component {
+  state = { maxValue: null };
+
   renderList() {
     return this.props.listOfItems.map(item => {
       return (
@@ -41,7 +43,6 @@ class List extends React.Component {
 }
 
 const mapStateToProps = state => {
-  console.log(state);
   return { listOfItems: state.listOfItems };
 };
 
