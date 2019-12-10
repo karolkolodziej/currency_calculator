@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import ListItem from "./ListItem";
 import { removeFromListAction } from "../actions/removeFromListAction";
 
+import "./ListStyle.css";
+
 class List extends React.Component {
   renderList() {
     return this.props.listOfItems.map(item => {
@@ -27,10 +29,9 @@ class List extends React.Component {
   }
 
   render() {
-    console.log(this.props.listOfItems);
     return (
       <div className="list__box">
-        <p>list</p>
+        <p>List</p>
         <div>
           <div>{this.renderList()}</div>
         </div>

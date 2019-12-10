@@ -1,8 +1,10 @@
 import { REMOVE_ITEM } from "../constants/reduxConstants";
 
-export const removeFromListAction = item => {
+export const removeFromListAction = id => {
   return {
     type: REMOVE_ITEM,
-    payload: item
+    payload: {
+      id
+    }
   };
 };

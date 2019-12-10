@@ -2,7 +2,7 @@ import React from "react";
 import InputBox from "./components/InputBox";
 import List from "./components/List";
 
-import "./style.css";
+import "./AppStyle.css";
 
 class App extends React.Component {
   render() {
@@ -11,7 +11,9 @@ class App extends React.Component {
         <div>
           <InputBox />
         </div>
-        <List />
+        <div className="list">
+          <List />
+        </div>
       </div>
     );
   }

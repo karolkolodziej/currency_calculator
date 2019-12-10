@@ -1,11 +1,15 @@
-.inputBox {
-  padding: 2vw;
-  margin-top: 5vh;
+.list__box {
+  margin-top: 5%;
+  width: 40vw;
   background-color: #eeeee8;
   display: inline-block;
   position: relative;
   transform: translate(-50%, 0%);
   left: 50%;
-
   text-align: center;
+  margin-bottom: 3vh;
+}
+.list__box_element {
+  padding-bottom: 1vh;
+  margin-top: 1vh;
 }
