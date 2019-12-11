@@ -1,6 +1,5 @@
-// docelowo createAction z redux-actions
 import uniqid from "uniqid";
-import { SAVE_ITEM } from "../constants/reduxConstants";
+import { SAVE_ITEM, REMOVE_ITEM } from "../constants/transactionsConstants";
 
 export const saveTransactionAction = (
   title,
@@ -16,6 +15,15 @@ export const saveTransactionAction = (
       amount,
       exchValue,
       id: uniqid()
+    }
+  };
+};
+
+export const removeFromListAction = id => {
+  return {
+    type: REMOVE_ITEM,
+    payload: {
+      id
     }
   };
 };

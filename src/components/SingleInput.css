@@ -1,5 +1,6 @@
 .singleInput {
   display: block;
+  margin-bottom: 1vh;
 }
 .singleInput__title {
   margin-top: 100px;

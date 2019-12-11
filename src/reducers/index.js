@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 
-import { addOrRemoveTransactionReducer } from "./addOrRemoveTransactionReducer";
+import { transacionsReducer } from "./transactionsReducer";
 
 export default combineReducers({
-  listOfItems: addOrRemoveTransactionReducer
+  transactions: transacionsReducer
 });

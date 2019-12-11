@@ -1,9 +1,6 @@
-import { SAVE_ITEM, REMOVE_ITEM } from "../constants/reduxConstants";
+import { SAVE_ITEM, REMOVE_ITEM } from "../constants/transactionsConstants";
 
-export const addOrRemoveTransactionReducer = (
-  listOfTransactions = [],
-  action
-) => {
+export const transacionsReducer = (listOfTransactions = [], action) => {
   if (action.type === SAVE_ITEM) {
     return [...listOfTransactions, action.payload];
   } else if (action.type === REMOVE_ITEM) {

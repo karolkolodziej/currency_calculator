@@ -1,11 +1,15 @@
 .inputBox {
   padding: 2vw;
   margin-top: 5vh;
+
   background-color: #eeeee8;
   display: inline-block;
   position: relative;
   transform: translate(-50%, 0%);
   left: 50%;
-
   text-align: center;
+}
+
+.inputBox__exchangedValue {
+  margin: 2vw;
 }

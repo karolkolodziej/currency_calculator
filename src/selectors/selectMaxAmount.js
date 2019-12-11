@@ -1,5 +1,8 @@
-export const selectMaxAmount = transaction => {
-  if (transaction.length !== 0) {
-    return transaction.sort((a, b) => b.amount - a.amount)[0].amount;
+export const selectMaxAmount = transactions => {
+  if (transactions.length !== 0) {
+    return transactions.sort(
+      (transaction1, transaction2) => transaction2.amount - transaction1.amount
+    )[0].amount;
   }
+  return 0;
 };
