@@ -5,3 +5,9 @@ body {
   background-image: linear-gradient(to right, #89eafb, #f48982);
   background-size: 150% 100%;
 }
+.max {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 5%;
+  left: 50%;
+}

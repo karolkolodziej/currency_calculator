@@ -1,15 +1,21 @@
 .list__box {
-  margin-top: 5%;
-  width: 40vw;
-  background-color: #eeeee8;
-  display: inline-block;
   position: relative;
+  display: inline-block;
   transform: translate(-50%, 0%);
   left: 50%;
-  text-align: center;
+  width: 40vw;
+  margin-top: 5%;
   margin-bottom: 3vh;
+  padding: 1%;
+
+  background-color: #eeeee8;
+  text-align: center;
 }
-.list__box_element {
-  padding-bottom: 1vh;
-  margin-top: 1vh;
+
+.btn {
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(#000, 0.2);
 }

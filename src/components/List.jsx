@@ -18,7 +18,7 @@ class List extends React.Component {
             exchValue={exchValue}
           />
           <button
-            className="negative ui button"
+            className="btn negative ui button"
             onClick={() => this.props.removeFromList(item)}
           >
             DELETE

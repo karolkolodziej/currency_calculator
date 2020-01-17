@@ -10,8 +10,11 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <MaxAmount />
-        <Sum />
+        <div className="max">
+          <MaxAmount />
+          <Sum />
+        </div>
+
         <InputBox />
         <div>
           <List />

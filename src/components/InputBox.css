@@ -1,15 +1,23 @@
 .inputBox {
-  padding: 2vw;
-  margin-top: 5vh;
-
-  background-color: #eeeee8;
   display: inline-block;
   position: relative;
   transform: translate(-50%, 0%);
   left: 50%;
+  padding: 2vw;
+  margin-top: 10vh;
+  background-color: #eeeee8;
   text-align: center;
 }
 
 .inputBox__exchangedValue {
   margin: 2vw;
+}
+
+.inputBox__btn {
+  cursor: pointer;
+}
+
+.inputBox__btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(#000, 0.2);
 }
