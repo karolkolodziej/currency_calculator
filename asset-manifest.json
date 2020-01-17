@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/currency_calculator/static/css/main.761e0625.chunk.css",
+    "main.js": "/currency_calculator/static/js/main.240e1b24.chunk.js",
+    "main.js.map": "/currency_calculator/static/js/main.240e1b24.chunk.js.map",
+    "runtime-main.js": "/currency_calculator/static/js/runtime-main.e86ffe94.js",
+    "runtime-main.js.map": "/currency_calculator/static/js/runtime-main.e86ffe94.js.map",
+    "static/js/2.8baef836.chunk.js": "/currency_calculator/static/js/2.8baef836.chunk.js",
+    "static/js/2.8baef836.chunk.js.map": "/currency_calculator/static/js/2.8baef836.chunk.js.map",
+    "index.html": "/currency_calculator/index.html",
+    "precache-manifest.f9775a5b4853f25f95706a91e87a61b6.js": "/currency_calculator/precache-manifest.f9775a5b4853f25f95706a91e87a61b6.js",
+    "service-worker.js": "/currency_calculator/service-worker.js",
+    "static/css/main.761e0625.chunk.css.map": "/currency_calculator/static/css/main.761e0625.chunk.css.map",
+    "static/js/2.8baef836.chunk.js.LICENSE": "/currency_calculator/static/js/2.8baef836.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e86ffe94.js",
+    "static/js/2.8baef836.chunk.js",
+    "static/css/main.761e0625.chunk.css",
+    "static/js/main.240e1b24.chunk.js"
+  ]
+}
